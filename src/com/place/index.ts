@@ -9,3 +9,6 @@ export const doGetPlace = async (params) => {
         return { data: {'success' : false, 'code': error.code, 'message': error.message } };
     }
 }
+
+// naming standards
+// do[Get/Insert/Update]Module_name

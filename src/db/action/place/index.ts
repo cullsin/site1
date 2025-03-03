@@ -13,3 +13,5 @@ return {
   type: REGISTER_PLACE_SUCCESS
 };
 };
+
+// [insert|register|init]Module_name_[Request|Success]

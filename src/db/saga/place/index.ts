@@ -9,3 +9,6 @@ function* fetchPlace(option) {
 export function* getPlaceSaga() {
     yield takeLatest(REGISTER_PLACE_REQUEST, fetchPlace);
 }
+
+//[get|Insert|register]Module_name(Saga())
+// fetch[Module_Name]
