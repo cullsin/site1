@@ -31,7 +31,7 @@ const Login = (props) => {
     useEffect(() => {
         const {success} = login;
         if(success === true) { 
-            navigate('/site1/dashboard');
+            navigate('dashboard');
         } 
     }, [login]);
 
