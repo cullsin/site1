@@ -6,7 +6,7 @@ const Routers = ({}) => {
     return ( 
     <Routes>
         <Route path='/' element={<LoginLayout />} />
-        <Route path='/dashboard' element={<Place />} />
+        <Route path='/site1/dashboard' element={<Place />} />
     </Routes>
     );
 }
