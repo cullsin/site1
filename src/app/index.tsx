@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react';
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux';
+import Routers from '../routers/main';
 
-const App = (props) => <h1>Hello World</h1>
+const App = (props) => <Routers />
 
 const mapStateToProps = (state: any) => {
   return {

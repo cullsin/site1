@@ -8,7 +8,7 @@ import rootSaga from '../sagas';
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist:['token','login']
+  whitelist:['token']
 }
  
 const sagaMiddleware = createSagaMiddleware();

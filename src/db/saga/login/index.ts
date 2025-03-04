@@ -7,8 +7,6 @@ function* fetchLogin(params) {
     yield put({ type: LOGIN_SUCCESS, payload: json.data});
 }
 
-function* loginSaga() {
+export function* loginSaga() {
     yield takeLatest(LOGIN_REQUEST, fetchLogin)
 }
-
-export default loginSaga;

@@ -1,5 +1,5 @@
 import React from "react";
 
-const Place = () => <React.Fragment></React.Fragment>
+const Place = () => <h1>Hello World</h1>
 
 export default Place;
